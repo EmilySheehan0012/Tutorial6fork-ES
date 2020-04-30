@@ -39,4 +39,10 @@ geom_point()
 grid.arrange(p1, p2)
 ```
 
+# New graph 
+
+```{r boxplot-with-no-sense}
+ggplot(data, aes(x = x, y = y)) + geom_boxplot()
+```
+
 
